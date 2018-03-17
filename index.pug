@@ -1,0 +1,111 @@
+header#banner.navbar.navbar-default.navbar-fixed-top
+  .container
+    a.scrollable(href='#top')
+      img(src='http://logos.flamingtext.com/Name-Logos/Saurabh-design-sketch-name.png', alt='saurabh | logo Design and sketching', title='Saurabh Sharma |  Mean Stack Development')
+    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false')
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    nav#navbar.collapse.navbar-collapse(role='navigation')
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.scrollable(href='#top') About
+        li
+          a.scrollable(href='#portfolio') Portfolio
+        li
+          a.scrollable(href='#contact') Contact
+// end header
+a#top(name='home')
+main
+  header
+    .intro-text
+      p
+               | I am passionate about developing new websites.I would love to work in field of Mean Stack Development. My other  interests are Data Structure,Algorithms,database management and machine learning. 
+      hr.star-bright
+      span.skills Web Developer - Programmer - Photographer - Tabala Player
+             img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/1796602_321691344686328_4477972295420256708_n.jpg?_nc_cat=0&oh=fc800a3c4ccdc13be94263aa0ec10ab7&oe=5B3AB19E', alt='A picture of Saurabh delivering speech at SMLK College Auditorium.', title='A picture of Saurabh  at SMLK Kanpur.')
+      //Gallery Grid Section
+  section#portfolio
+    h2 Portfolio
+    hr.star-dark
+    
+    ul.grid
+      li
+      img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14657280_524118121110315_546393299068712889_n.jpg?oh=931d1cf9d51adee5bd74ef247ff16893&oe=5B012970', alt='')
+      li
+        img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/11924915_389552347900227_4401193305087076138_n.jpg?oh=c184565330e347e8201cccecbac3231c&oe=5B2CA77D', alt='')
+      li
+        img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/15826563_556971537824973_2020851542572019942_n.jpg?oh=7eadf63b96a07ec24f6563824e95ed6d&oe=5B403B4B', alt='')
+      li
+        img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/13901345_496479683874159_6192699567078535081_n.jpg?oh=7275199a33c249a6f890c43e36abd231&oe=5B2FBC60', alt='')
+      li
+        img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/11904666_386835278171934_7808182013901867784_n.jpg?oh=82abdc68bf181f47f2ebec6007976fb5&oe=5B2C9E3A', alt='')
+      li
+        img(src='https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/10494706_768570373194663_3715939154599799849_n.jpg?oh=ef88b92890635964751914c532bc4147&oe=5B3C1EC2', alt='')
+     
+      
+  // Contact Section
+  section#contact
+    h2 Contact Me
+    hr.star-dark
+    div
+      form#contactForm(novalidate='')
+        .form-item
+          label(for='“name”') Name
+          input#name(type='text', placeholder='Name', required='')
+        .form-item
+          label(for='“email”') Email Address
+          input#email(type='email', placeholder='Email Address', required='')
+        .form-item
+          label(for='“phone”') Phone Number
+          input#phone(type='tel', placeholder='Phone Number', required='')
+        .form-item
+          label(for='“message”') Message
+          textarea#message(rows='5', placeholder='Message', required='')
+        br
+        button(type='submit') Send
+      div
+        p
+          | Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your rubix, random questions about the universe, the philosophy of life and music..
+        p I promise to reply A.S.A.P.
+        p Note: No spam/soliciting pour moi, merci :)
+  // Scroll to Top Button (Only supposed to be visible on small and small screen sizes)
+  .scroll-top
+    a.button.scrollable(href='#top')
+      i.fa.fa-chevron-up
+// Footer
+footer
+  #footer-above
+    div
+      h3 About this page
+      p
+        | Made with 
+        i.fa.fa-fw.fa-coffee
+        |  and 
+        i.fa.fa-fw.fa-music
+        br
+        | by 
+        a(href='http://philsaurabh.wordpress.com') Saurabh Sharma
+        | .
+    div
+      h3 Around the Web
+      ul
+        li
+          a.button.social(href='https://www.linkedin.com/in/saurabh-sharma-14a364125')
+            i.fa.fa-fw.fa-linkedin
+        li
+          a.button.social(href='https://github.com/SAURABHsha31')
+            i.fa.fa-fw.fa-github
+        li
+          a.button.social(href='https://twitter.com/saurbhaofficial')
+            i.fa.fa-fw.fa-twitter
+        li
+          a.button.social(href='https://www.flickr.com/', title='My Flickr')
+            i.fa.fa-fw.fa-flickr
+  #footer-below
+    | philsaurabh © 
+    script.
+      document.write(new Date().getFullYear())
+    | . All Rights Reversed
+    <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>
